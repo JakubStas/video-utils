@@ -13,8 +13,17 @@ alias videoProjectSetup="bash /path/to/script/project_setup.sh"
 Once the alias is set up, just use the script as follows:
 
 ```bash
-videoProjectSetup -h
+videoProjectSetup -n=2018-04-21-dutch-road-trip -d=4
+```
 
+![sample directory structure][sample-directory]
+
+
+```bash
+videoProjectSetup -h
+```
+
+```
 Script used to setup a folder structure for your everyday vlogging needs!
 
 Usage: /Users/stasj/Documents/scripts/project_setup.sh -n=PROJECT_NAME -d=NUMBER_OF_DAYS
@@ -23,6 +32,4 @@ Usage: /Users/stasj/Documents/scripts/project_setup.sh -n=PROJECT_NAME -d=NUMBER
 	-d, --number-of-days   number of days the shooting took (defaults to 5)
 ```
 
-```bash
-videoProjectSetup -n=2018-04-21-dutch-road-trip -d=4
-```
+[sample-directory]: https://github.com/JakubStas/video-utils/raw/master/project-setup/media/sample-project-directory.png "Sample directory structure"
