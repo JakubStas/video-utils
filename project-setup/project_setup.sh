@@ -66,7 +66,7 @@ function usage {
     echo ""
     echo "Usage: $programName -n=PROJECT_NAME -d=NUMBER_OF_DAYS"
     echo "	-h, --help             display this help and exit"
-    echo "	-n, --project-name     name of the project folder (e.g. 2018-03-25-slieve_foye)"
+    echo "	-n, --project-name     name of the project folder (e.g. 2018-03-25-slieve-foye)"
     echo "	-d, --number-of-days   number of days the shooting took (defaults to 5)"
     echo ""
 }
